@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="in">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/index.css"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Damion&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/aos.css" rel="stylesheet" />
+    <link rel="icon" href="assets/img/bts-logoo.ico"  width="18" height="18"/>
+    <meta
+      property="og:image"
+      content="assets/img/isi/landing.png"
+    />
+    <title>Melly & Ghofar</title>
+    <style type="text/css">
+      #couple-content {
+        background-color: #C38888;
+      }
+
+      :root {
+        --warna: #C38888;
+        --avatar-size: 3rem;
+      }
+
+      .wrap-img-man {
+        border: solid 2px #C38888;
+      }
+
+      .wrap-img-women {
+        border: solid 2px #C38888;
+      }
+
+      .couple-man {
+        color: #C38888;
+      }
+
+      #prayer-content {
+        background-color: #C38888;
+      }
+
+      .location {
+        background-color: #C38888;
+      }
+
+      .img-covid {
+        background-color: #C38888;
+      }
+
+      #gallery-content {
+        background-color: #C38888;
+        /* margin-bottom: 50px; */
+        /* background-color: black; */
+      }
+
+      #ucapan .form-control {
+        border: 2px solid #C38888;
+      }
+
+      #ucapan .form-control:focus {
+        color: #C38888;
+        border-color: #C38888;
+        box-shadow: 0 0 0 0.1rem #C38888;
+      }
+
+      .btn-secondary.prayer {
+        background-color: #C38888;
+      }
+
+      #ucapan-content {
+        background-color: #C38888;
+      }
+
+      #top-content {
+        background: #00000070;
+        z-index: -1;
+      }
+
+      .imusic {
+        background-color: #C38888;
+      }
+
+      .btn-coco {
+        background-color: #C38888 !important;
+        color: white;
+      }
+
+      .card-title {
+        color: #C38888;
+        font-size: 1rem;
+      }
+
+      .papper {
+        color: #C38888 !important;
+      }
+
+      .pray {
+        border-top: 2px solid #C38888;
+        border-bottom: 2px solid #C38888;
+      }
+
+      .btn-outline-light {
+        color: #C38888 !important;
+        border-color: #C38888 !important;
+      }
+
+      .text-color {
+        color: #C38888;
+      }
+
+      .modal-content {
+        background-color: #C38888;
+        height: 100%;
+      }
+
+      .border-depan {
+        background-color: #C38888;
+      }
+
+      .card-text {
+        color: #C38888;
+      }
+
+      #couple-content .card-img-top {
+        width: 100%;
+        border-radius: 10px;
+      }
+
+      .modal {
+        padding: 0 !important;
+      }
+
+      .overlay {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background-size: cover;
+        /* filter: grayscale(1); */
+      }
+
+      .scroll {
+        height: 400px;
+        width: 100%;
+        overflow-y: scroll;
+      }
+
+      .line {
+        border-bottom: 2px solid #C38888;
+        width: 100%;
+      }
+
+
+      a {
+        color: #C38888;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <audio loop="" preload="auto" id="myAudio">
+        <source
+          src="assets/audio/background.mp3"
+        />
+      </audio>
+      <a onclick="playAudio()" id="un-mute"
+        ><img
+          class="imusic"
+          src="https://kartunikah.com/lama/assets/template6/music-off.png"
+      /></a>
+      <a onclick="pauseAudio()" id="mute" style="display: none"
+        ><img
+          class="imusic"
+          src="https://kartunikah.com/lama/assets/template6/music-on.png"
+      /></a>
+      <div id="top-content">
+        <div class="container">
+          <div class="row">
+            <img
+              class="img-top"
+              src="assets/img/isi/landing.png"
+              alt=""
+              style="background-color: #C38888"
+            />
+            <div class="col-md-12" id="wraptext">
+              <div
+                class="title-top"
+                style="font-size: 35px; font-family: 'Damion', cursive"
+              >
+                The wedding of
+              </div>
+            </div>
+            <h1
+              class="couple-name"
+              data-aos="zoom-in-down"
+              data-aos-duration="2000"
+            >
+              Melly & Ghofar
+            </h1>
+            <div
+              class="datetime"
+              data-aos="zoom-in-up"
+              data-aos-duration="2000"
+            >
+              Minggu, 24 Juli 2022
+            </div>
+            <button type="button" class="btn btn-coco live">
+              <a
+                href="https://www.google.com/calendar/render?action=TEMPLATE&text=Undangan+Pernikahan+Melly+dan+Ghofar&dates=20220724T000000Z/20220724T020000Z&details=Undangan+pernikahan+Resepsi+Jam+11.00+Sampai+12.00&location=https://www.google.com/maps/place/KORPRI+Building+Pati/@-6.7452876,111.0344642,19z/data=!4m5!3m4!1s0x2e70d3ad5bf58b67:0x256472e33348a875!8m2!3d-6.7453439!4d111.0341315&sf=true&output=xml"
+                target="_blank"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  style="margin-bottom: -2px"
+                  class="feather feather-calendar"
+                >
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                  <line x1="16" y1="2" x2="16" y2="6" />
+                  <line x1="8" y1="2" x2="8" y2="6" />
+                  <line x1="3" y1="10" x2="21" y2="10" />
+                </svg>
+                Save the date</a
+              >
+            </button>
+            <img
+              class="relief"
+              src="assets/img/templates/relief.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="prayer-content" class="papper">
+        <div class="container">
+          <div class="row justify-content-center">
+            <svg
+              width="25px"
+              height="25px"
+              style="margin-bottom: 10px"
+              viewBox="0 0 42 38"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.0339 33.8075C8.38677 33.488 3.89037 28.793 3.89037 23.0668C3.89037 17.1345 8.71629 12.3082 14.6481 12.3082C17.301 12.3082 19.8485 13.2816 21.8212 15.0491C24.0995 17.087 25.4066 20.0095 25.4066 23.0667C25.4066 25.6305 24.4869 28.0994 22.846 30.0319C24.0098 30.786 25.3459 31.2364 26.7384 31.3392C28.4142 28.8996 29.297 26.0531 29.297 23.0667C29.297 19.8672 28.2841 16.8282 26.3679 14.2783C24.8453 12.2514 22.8189 10.6468 20.5075 9.63772C19.2265 9.07739 17.887 8.70882 16.5073 8.53495C19.296 6.48203 20.3625 4.76142 20.3625 3.26071C20.3625 1.45985 18.9026 0 17.1017 0C16.1232 0 15.2461 0.431589 14.6484 1.11409C14.0508 0.431589 13.1735 0 12.1951 0C10.3942 0 8.93438 1.45985 8.93438 3.26071C8.93438 4.76167 10.0011 6.48253 12.7909 8.53585C5.5876 9.45138 0 15.6188 0 23.0668C0 31.1437 6.57106 37.7149 14.6481 37.7149C15.7648 37.7149 16.8611 37.591 17.9283 37.3467C16.462 36.3771 15.1451 35.1836 14.0339 33.8075Z"
+                fill="#C38888"
+              ></path>
+              <path
+                d="M27.3518 8.4187C26.235 8.4187 25.1387 8.5426 24.0715 8.78678C25.5378 9.75646 26.8547 10.95 27.966 12.3261C33.6131 12.6456 38.1095 17.3406 38.1095 23.0667C38.1095 28.999 33.2837 33.8253 27.3519 33.8253C24.699 33.8253 22.1515 32.8519 20.1786 31.0843C17.9003 29.0464 16.5932 26.1238 16.5932 23.0667C16.5932 20.5029 17.513 18.0339 19.1539 16.1015C17.9901 15.3474 16.654 14.897 15.2615 14.7942C13.5856 17.2338 12.7029 20.0802 12.7029 23.0666C12.7029 26.2662 13.7157 29.3051 15.632 31.8551C17.1546 33.882 19.181 35.4866 21.4924 36.4957C23.3421 37.3047 25.3132 37.7147 27.3519 37.7147C35.4288 37.7147 41.9999 31.1436 41.9999 23.0666C41.9998 14.9898 35.4287 8.4187 27.3518 8.4187Z"
+                fill="#C38888"
+              ></path>
+            </svg>
+            <div
+              class="prayer-text"
+              data-aos="zoom-in-down"
+              data-aos-duration="2000"
+            >
+              <p>
+                “Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+                pasangan-pasangan untukmu dari jenismu sendiri, agar kamu
+                cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di
+                antaramu rasa kasih dan sayang.”<br />
+                (Ar-Rum: 21)
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          class="relief-reverse"
+          src="https://kartunikah.com/assets/template/tema_8/relief-reverse.png"
+          alt=""
+        />
+      </div>
+
+      <!--  mempelai -->
+      <div>
+        <div id="couple-content" class="pt-50">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-12">
+                <svg
+                  width="25px"
+                  height="25px"
+                  style="margin-bottom: 10px"
+                  viewBox="0 0 42 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.0339 33.8075C8.38677 33.488 3.89037 28.793 3.89037 23.0668C3.89037 17.1345 8.71629 12.3082 14.6481 12.3082C17.301 12.3082 19.8485 13.2816 21.8212 15.0491C24.0995 17.087 25.4066 20.0095 25.4066 23.0667C25.4066 25.6305 24.4869 28.0994 22.846 30.0319C24.0098 30.786 25.3459 31.2364 26.7384 31.3392C28.4142 28.8996 29.297 26.0531 29.297 23.0667C29.297 19.8672 28.2841 16.8282 26.3679 14.2783C24.8453 12.2514 22.8189 10.6468 20.5075 9.63772C19.2265 9.07739 17.887 8.70882 16.5073 8.53495C19.296 6.48203 20.3625 4.76142 20.3625 3.26071C20.3625 1.45985 18.9026 0 17.1017 0C16.1232 0 15.2461 0.431589 14.6484 1.11409C14.0508 0.431589 13.1735 0 12.1951 0C10.3942 0 8.93438 1.45985 8.93438 3.26071C8.93438 4.76167 10.0011 6.48253 12.7909 8.53585C5.5876 9.45138 0 15.6188 0 23.0668C0 31.1437 6.57106 37.7149 14.6481 37.7149C15.7648 37.7149 16.8611 37.591 17.9283 37.3467C16.462 36.3771 15.1451 35.1836 14.0339 33.8075Z"
+                    fill="#fff"
+                  ></path>
+                  <path
+                    d="M27.3518 8.4187C26.235 8.4187 25.1387 8.5426 24.0715 8.78678C25.5378 9.75646 26.8547 10.95 27.966 12.3261C33.6131 12.6456 38.1095 17.3406 38.1095 23.0667C38.1095 28.999 33.2837 33.8253 27.3519 33.8253C24.699 33.8253 22.1515 32.8519 20.1786 31.0843C17.9003 29.0464 16.5932 26.1238 16.5932 23.0667C16.5932 20.5029 17.513 18.0339 19.1539 16.1015C17.9901 15.3474 16.654 14.897 15.2615 14.7942C13.5856 17.2338 12.7029 20.0802 12.7029 23.0666C12.7029 26.2662 13.7157 29.3051 15.632 31.8551C17.1546 33.882 19.181 35.4866 21.4924 36.4957C23.3421 37.3047 25.3132 37.7147 27.3519 37.7147C35.4288 37.7147 41.9999 31.1436 41.9999 23.0666C41.9998 14.9898 35.4287 8.4187 27.3518 8.4187Z"
+                    fill="#fff"
+                  ></path>
+                </svg>
+              </div>
+              <br />
+              <h2 class="text-name">Mempelai</h2>
+              <br />
+              <div
+                class="card mx-auto"
+                style="width: 18rem; border-radius: 15px"
+              >
+                <img
+                  data-aos="fade-down"
+                  data-aos-duration="2000"
+                  src="assets/img/isi/11.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5
+                    class="card-title mt-3"
+                    data-aos="fade-down"
+                    data-aos-duration="2000"
+                  >
+                    <b>Ghofaro Fais Alim, S.E. </b>
+                  </h5>
+                  <p
+                    class="card-text"
+                    style="font-size: 12px"
+                    data-aos="fade-down"
+                    data-aos-duration="2000"
+                  >
+                    Putra dari <br />
+                    Bapak Suhud, S.Som, M.M <br />
+                    & <br />
+                    Ibu Binik Ismiyatun
+                  </p>
+                  <p class="card-text">Mempelai Pria</p>
+                </div>
+              </div>
+              <div
+                class="card mx-auto mb-4"
+                style="width: 18rem; border-radius: 15px"
+              >
+                <img
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                  src="assets/img/isi/12.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5
+                    class="card-title mt-3"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    <b>Melyasari Befyana A.Md</b>
+                  </h5>
+                  <p
+                    class="card-text"
+                    style="font-size: 12px"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
+                    Putri dari <br />
+                    Bapak Bambang P.BA <br />
+                    & <br />
+                    Ibu Anis Kisworo, S.Pd, M.Pd
+                  </p>
+                  <p class="card-text">Mempelai Wanita</p>
+                </div>
+              </div>
+              <div style="height: 50px"></div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="relief"
+          src="https://kartunikah.com/assets/template/tema_8/relief.png"
+          alt=""
+        />
+      </div>
+
+      <!-- hitung mundur -->
+      <div id="prayer-content" class="papper" style="margin-top: -21px">
+        <div class="container">
+          <div class="row justify-content-center">
+            <svg
+              width="25px"
+              height="25px"
+              style="margin-bottom: 10px; width: 100%"
+              viewBox="0 0 42 38"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.0339 33.8075C8.38677 33.488 3.89037 28.793 3.89037 23.0668C3.89037 17.1345 8.71629 12.3082 14.6481 12.3082C17.301 12.3082 19.8485 13.2816 21.8212 15.0491C24.0995 17.087 25.4066 20.0095 25.4066 23.0667C25.4066 25.6305 24.4869 28.0994 22.846 30.0319C24.0098 30.786 25.3459 31.2364 26.7384 31.3392C28.4142 28.8996 29.297 26.0531 29.297 23.0667C29.297 19.8672 28.2841 16.8282 26.3679 14.2783C24.8453 12.2514 22.8189 10.6468 20.5075 9.63772C19.2265 9.07739 17.887 8.70882 16.5073 8.53495C19.296 6.48203 20.3625 4.76142 20.3625 3.26071C20.3625 1.45985 18.9026 0 17.1017 0C16.1232 0 15.2461 0.431589 14.6484 1.11409C14.0508 0.431589 13.1735 0 12.1951 0C10.3942 0 8.93438 1.45985 8.93438 3.26071C8.93438 4.76167 10.0011 6.48253 12.7909 8.53585C5.5876 9.45138 0 15.6188 0 23.0668C0 31.1437 6.57106 37.7149 14.6481 37.7149C15.7648 37.7149 16.8611 37.591 17.9283 37.3467C16.462 36.3771 15.1451 35.1836 14.0339 33.8075Z"
+                fill="#C38888"
+              ></path>
+              <path
+                d="M27.3518 8.4187C26.235 8.4187 25.1387 8.5426 24.0715 8.78678C25.5378 9.75646 26.8547 10.95 27.966 12.3261C33.6131 12.6456 38.1095 17.3406 38.1095 23.0667C38.1095 28.999 33.2837 33.8253 27.3519 33.8253C24.699 33.8253 22.1515 32.8519 20.1786 31.0843C17.9003 29.0464 16.5932 26.1238 16.5932 23.0667C16.5932 20.5029 17.513 18.0339 19.1539 16.1015C17.9901 15.3474 16.654 14.897 15.2615 14.7942C13.5856 17.2338 12.7029 20.0802 12.7029 23.0666C12.7029 26.2662 13.7157 29.3051 15.632 31.8551C17.1546 33.882 19.181 35.4866 21.4924 36.4957C23.3421 37.3047 25.3132 37.7147 27.3519 37.7147C35.4288 37.7147 41.9999 31.1436 41.9999 23.0666C41.9998 14.9898 35.4287 8.4187 27.3518 8.4187Z"
+                fill="#C38888"
+              ></path>
+            </svg>
+            <h3 class="text-name">Jangan Lewatkan</h3>
+          </div>
+          <div class="row justify-content-center">
+            <div class="btn btn-outline-light ct">
+              <h1 id="hari" class="countdown"></h1>
+              <h5 class="countdownD">Hari</h5>
+            </div>
+            <div class="btn btn-outline-light ct">
+              <h1 id="jam" class="countdown"></h1>
+              <h5 class="countdownD">Jam</h5>
+            </div>
+            <div class="btn btn-outline-light ct">
+              <h1 id="menit" class="countdown"></h1>
+              <h5 class="countdownD">Menit</h5>
+            </div>
+            <div class="btn btn-outline-light ct">
+              <h1 id="detik" class="countdown"></h1>
+              <h5 class="countdownD">Detik</h5>
+            </div>
+          </div>
+        </div>
+        <img
+          class="relief-reverse"
+          src="assets/img/templates/relief-reverse.png"
+          alt=""
+        />
+      </div>
+
+      <!-- lokasi -->
+      <div style="background-color: #C38888">
+        <div id="couple-content" class="pt-100">
+          <div class="container">
+            <div class="row justify-content-center">
+              <svg
+                width="25px"
+                height="25px"
+                style="margin-bottom: 10px; width: 100%"
+                viewBox="0 0 42 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.0339 33.8075C8.38677 33.488 3.89037 28.793 3.89037 23.0668C3.89037 17.1345 8.71629 12.3082 14.6481 12.3082C17.301 12.3082 19.8485 13.2816 21.8212 15.0491C24.0995 17.087 25.4066 20.0095 25.4066 23.0667C25.4066 25.6305 24.4869 28.0994 22.846 30.0319C24.0098 30.786 25.3459 31.2364 26.7384 31.3392C28.4142 28.8996 29.297 26.0531 29.297 23.0667C29.297 19.8672 28.2841 16.8282 26.3679 14.2783C24.8453 12.2514 22.8189 10.6468 20.5075 9.63772C19.2265 9.07739 17.887 8.70882 16.5073 8.53495C19.296 6.48203 20.3625 4.76142 20.3625 3.26071C20.3625 1.45985 18.9026 0 17.1017 0C16.1232 0 15.2461 0.431589 14.6484 1.11409C14.0508 0.431589 13.1735 0 12.1951 0C10.3942 0 8.93438 1.45985 8.93438 3.26071C8.93438 4.76167 10.0011 6.48253 12.7909 8.53585C5.5876 9.45138 0 15.6188 0 23.0668C0 31.1437 6.57106 37.7149 14.6481 37.7149C15.7648 37.7149 16.8611 37.591 17.9283 37.3467C16.462 36.3771 15.1451 35.1836 14.0339 33.8075Z"
+                  fill="#fff"
+                ></path>
+                <path
+                  d="M27.3518 8.4187C26.235 8.4187 25.1387 8.5426 24.0715 8.78678C25.5378 9.75646 26.8547 10.95 27.966 12.3261C33.6131 12.6456 38.1095 17.3406 38.1095 23.0667C38.1095 28.999 33.2837 33.8253 27.3519 33.8253C24.699 33.8253 22.1515 32.8519 20.1786 31.0843C17.9003 29.0464 16.5932 26.1238 16.5932 23.0667C16.5932 20.5029 17.513 18.0339 19.1539 16.1015C17.9901 15.3474 16.654 14.897 15.2615 14.7942C13.5856 17.2338 12.7029 20.0802 12.7029 23.0666C12.7029 26.2662 13.7157 29.3051 15.632 31.8551C17.1546 33.882 19.181 35.4866 21.4924 36.4957C23.3421 37.3047 25.3132 37.7147 27.3519 37.7147C35.4288 37.7147 41.9999 31.1436 41.9999 23.0666C41.9998 14.9898 35.4287 8.4187 27.3518 8.4187Z"
+                  fill="#fff"
+                ></path>
+              </svg>
+              <h2 class="text-name">Agenda</h2>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+             
+              <div
+                class="card text-center mx-auto"
+                style="border-radius: 15px; width: 18rem"
+                data-aos="zoom-in-down"
+                data-aos-duration="2000"
+              >
+                <div class="card-body">
+                  <h2 class="text-name text-color">Resepsi</h2>
+                  <svg
+                    width="25px"
+                    height="25px"
+                    style="margin-bottom: 10px; width: 100%"
+                    viewBox="0 0 42 38"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.0339 33.8075C8.38677 33.488 3.89037 28.793 3.89037 23.0668C3.89037 17.1345 8.71629 12.3082 14.6481 12.3082C17.301 12.3082 19.8485 13.2816 21.8212 15.0491C24.0995 17.087 25.4066 20.0095 25.4066 23.0667C25.4066 25.6305 24.4869 28.0994 22.846 30.0319C24.0098 30.786 25.3459 31.2364 26.7384 31.3392C28.4142 28.8996 29.297 26.0531 29.297 23.0667C29.297 19.8672 28.2841 16.8282 26.3679 14.2783C24.8453 12.2514 22.8189 10.6468 20.5075 9.63772C19.2265 9.07739 17.887 8.70882 16.5073 8.53495C19.296 6.48203 20.3625 4.76142 20.3625 3.26071C20.3625 1.45985 18.9026 0 17.1017 0C16.1232 0 15.2461 0.431589 14.6484 1.11409C14.0508 0.431589 13.1735 0 12.1951 0C10.3942 0 8.93438 1.45985 8.93438 3.26071C8.93438 4.76167 10.0011 6.48253 12.7909 8.53585C5.5876 9.45138 0 15.6188 0 23.0668C0 31.1437 6.57106 37.7149 14.6481 37.7149C15.7648 37.7149 16.8611 37.591 17.9283 37.3467C16.462 36.3771 15.1451 35.1836 14.0339 33.8075Z"
+                      fill="#C38888"
+                    ></path>
+                    <path
+                      d="M27.3518 8.4187C26.235 8.4187 25.1387 8.5426 24.0715 8.78678C25.5378 9.75646 26.8547 10.95 27.966 12.3261C33.6131 12.6456 38.1095 17.3406 38.1095 23.0667C38.1095 28.999 33.2837 33.8253 27.3519 33.8253C24.699 33.8253 22.1515 32.8519 20.1786 31.0843C17.9003 29.0464 16.5932 26.1238 16.5932 23.0667C16.5932 20.5029 17.513 18.0339 19.1539 16.1015C17.9901 15.3474 16.654 14.897 15.2615 14.7942C13.5856 17.2338 12.7029 20.0802 12.7029 23.0666C12.7029 26.2662 13.7157 29.3051 15.632 31.8551C17.1546 33.882 19.181 35.4866 21.4924 36.4957C23.3421 37.3047 25.3132 37.7147 27.3519 37.7147C35.4288 37.7147 41.9999 31.1436 41.9999 23.0666C41.9998 14.9898 35.4287 8.4187 27.3518 8.4187Z"
+                      fill="#C38888"
+                    ></path>
+                  </svg>
+                  <p class="card-text">
+                    Minggu, 24 Juli 2022<br />
+                    11.00 - 12.00 <br /><br />
+                    Jl. AKBP Agil Kusumadya No.17A, Ngarus, Kec. Pati, Kabupaten Pati, Jawa Tengah 59112
+                  </p>
+                  <a
+                    href="https://goo.gl/maps/CQGPwWZQdZgNPw32A"
+                    class="btn btn-coco btn-block"
+                    ><i class="fas fa-map-marker-alt mr-2"></i> Petunjuk Arah</a
+                  >
+                </div>
+              </div>
+              <div
+                class="card-prayer text-color mx-auto"
+                style="text-align: center; width: 18rem"
+                data-aos="zoom-in-down"
+                data-aos-duration="2000"
+              >
+                <div class="card mx-auto" style="border-radius: 15px">
+                  <p style="font-size: 16px; margin-top: px">
+                    Sehubungan dengan adanya wabah COVID-19, mari kita ikuti
+                    protokol kesehatan yang harus dipatuhi demi mencegah
+                    penyebaran virus COVID-19
+                  </p>
+                  <div class="covidProtokol">
+                    <div class="">
+                      <img
+                        class="img-covid"
+                        src="assets/img/templates/3m-memakai-masker.png"
+                        alt="memakai-masker"
+                        width="100%"
+                      />
+                      <p class="protokolTeks text-color">Menggunakan masker</p>
+                    </div>
+                    <div class="">
+                      <img
+                        class="img-covid"
+                        src="assets/img/templates/3m-mencuci-tangan.png"
+                        alt="mencuci-tangan"
+                        width="100%"
+                      />
+                      <p class="protokolTeks text-color">Mencuci tangan</p>
+                    </div>
+                  </div>
+                  <div class="covidProtokol">
+                    <div class="">
+                      <img
+                        class="img-covid"
+                        src="assets/img/templates/3m-menjaga-jarak.png"
+                        alt="menjaga-jarak-dan-menghindari-kerumunan"
+                      />
+                      <p class="protokolTeks text-color">
+                        Menjaga jarak dan <br />
+                        menghindari kerumunan
+                      </p>
+                    </div>
+                    <div class="">
+                      <img
+                        class="img-covid"
+                        src="assets/img/templates/3m-sakit.png"
+                        alt="jika-sedang-sakit,-dimohon-untuk-tetap-beristirahat-dirumah"
+                      />
+                      <p class="protokolTeks text-color">
+                        Jika sedang sakit, <br />
+                        dimohon untuk tetap <br />
+                        beristirahat dirumah
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- gallery -->
+
+      <img
+        class="svg ornamen br-relief-reverse1"
+        src="https://kartunikah.com/assets/template/tema_8/atas.png"
+        alt=""
+      />
+      <div id="gallery-content" class="gallery">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="https://kartunikah.com/upload/galeri/51-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="https://kartunikah.com/upload/galeri/51-3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="https://kartunikah.com/upload/galeri/51-4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="https://kartunikah.com/upload/galeri/51-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="https://kartunikah.com/upload/galeri/51-6.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <div id="gallery-content">
+        <img
+          class="svg br-relief-reverse2"
+          src="assets/img/templates/bawah.png"
+          alt=""
+        />
+        <div class="container">
+          <div class="row justify-content-center">
+            <svg
+              width="25px"
+              height="25px"
+              style="margin-bottom: 10px; margin-top: 7px; width: 100%"
+              viewBox="0 0 42 38"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.0339 33.8075C8.38677 33.488 3.89037 28.793 3.89037 23.0668C3.89037 17.1345 8.71629 12.3082 14.6481 12.3082C17.301 12.3082 19.8485 13.2816 21.8212 15.0491C24.0995 17.087 25.4066 20.0095 25.4066 23.0667C25.4066 25.6305 24.4869 28.0994 22.846 30.0319C24.0098 30.786 25.3459 31.2364 26.7384 31.3392C28.4142 28.8996 29.297 26.0531 29.297 23.0667C29.297 19.8672 28.2841 16.8282 26.3679 14.2783C24.8453 12.2514 22.8189 10.6468 20.5075 9.63772C19.2265 9.07739 17.887 8.70882 16.5073 8.53495C19.296 6.48203 20.3625 4.76142 20.3625 3.26071C20.3625 1.45985 18.9026 0 17.1017 0C16.1232 0 15.2461 0.431589 14.6484 1.11409C14.0508 0.431589 13.1735 0 12.1951 0C10.3942 0 8.93438 1.45985 8.93438 3.26071C8.93438 4.76167 10.0011 6.48253 12.7909 8.53585C5.5876 9.45138 0 15.6188 0 23.0668C0 31.1437 6.57106 37.7149 14.6481 37.7149C15.7648 37.7149 16.8611 37.591 17.9283 37.3467C16.462 36.3771 15.1451 35.1836 14.0339 33.8075Z"
+                fill="#fff"
+              ></path>
+              <path
+                d="M27.3518 8.4187C26.235 8.4187 25.1387 8.5426 24.0715 8.78678C25.5378 9.75646 26.8547 10.95 27.966 12.3261C33.6131 12.6456 38.1095 17.3406 38.1095 23.0667C38.1095 28.999 33.2837 33.8253 27.3519 33.8253C24.699 33.8253 22.1515 32.8519 20.1786 31.0843C17.9003 29.0464 16.5932 26.1238 16.5932 23.0667C16.5932 20.5029 17.513 18.0339 19.1539 16.1015C17.9901 15.3474 16.654 14.897 15.2615 14.7942C13.5856 17.2338 12.7029 20.0802 12.7029 23.0666C12.7029 26.2662 13.7157 29.3051 15.632 31.8551C17.1546 33.882 19.181 35.4866 21.4924 36.4957C23.3421 37.3047 25.3132 37.7147 27.3519 37.7147C35.4288 37.7147 41.9999 31.1436 41.9999 23.0666C41.9998 14.9898 35.4287 8.4187 27.3518 8.4187Z"
+                fill="#fff"
+              ></path>
+            </svg>
+            <h2 class="text-name">Ucapan & Do'a</h2>
+          </div>
+          <form
+            id="ucapan"
+            action="https://kartunikah.com/aji-septi?tamu=Nindya"
+            method="post"
+          >
+            <div class="form-group">
+              <label for="">Nama</label>
+              <input
+                type="text"
+                class="form-control"
+                id=""
+                value=""
+                placeholder="Isikan Nama Anda"
+                name="nama_ucapan"
+              />
+            </div>
+            <div class="form-group">
+              <label for="">No. Whatsapp</label>
+              <input
+                type="text"
+                class="form-control"
+                id=""
+                placeholder="Isikan no. whatsapp Anda"
+                name="nohp_ucapan"
+              />
+            </div>
+            <div class="form-group">
+              <label for="">Kehadiran</label><br />
+              <input type="radio" name="kehadiran" value="option1" />Hadir
+              <input
+                type="radio"
+                name="kehadiran"
+                value="option2"
+                style="margin-left: 20px"
+              />Tidak Hadir
+            </div>
+            <div class="form-group">
+              <label for="">Ucapan & Do'a</label>
+              <textarea
+                class="form-control"
+                id=""
+                rows="3"
+                placeholder="Ucapan & Do'a Anda"
+                name="isi_ucapan"
+              ></textarea>
+            </div>
+            <input type="hidden" name="resepsi" value="pertama">
+            <button
+              style="background-color: white; color: #C38888"
+              type="submit"
+              class="btn btn-secondary prayer mb-3"
+            >
+              Kirim
+            </button>
+          </form>
+        </div>
+  <hr>
+
+      </div>
+   
+
+      <div >
+        <img alt="" src="https://kartunikah.com/assets/template/tema_8/relief-reverse.png" class="relief" style="margin-bottom: -50px;">
+        <div style="margin-top: -45px; padding:0 5px" id="ucapan-content" class="paper">
+          <div class="container" style="background-image: url('assets/img/templates/papper.png');">
+            <div class="row justify-content-center">
+              <svg
+                width="25px"
+                height="25px"
+                style="margin-bottom: 10px; width: 100%"
+                viewBox="0 0 42 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.0339 33.8075C8.38677 33.488 3.89037 28.793 3.89037 23.0668C3.89037 17.1345 8.71629 12.3082 14.6481 12.3082C17.301 12.3082 19.8485 13.2816 21.8212 15.0491C24.0995 17.087 25.4066 20.0095 25.4066 23.0667C25.4066 25.6305 24.4869 28.0994 22.846 30.0319C24.0098 30.786 25.3459 31.2364 26.7384 31.3392C28.4142 28.8996 29.297 26.0531 29.297 23.0667C29.297 19.8672 28.2841 16.8282 26.3679 14.2783C24.8453 12.2514 22.8189 10.6468 20.5075 9.63772C19.2265 9.07739 17.887 8.70882 16.5073 8.53495C19.296 6.48203 20.3625 4.76142 20.3625 3.26071C20.3625 1.45985 18.9026 0 17.1017 0C16.1232 0 15.2461 0.431589 14.6484 1.11409C14.0508 0.431589 13.1735 0 12.1951 0C10.3942 0 8.93438 1.45985 8.93438 3.26071C8.93438 4.76167 10.0011 6.48253 12.7909 8.53585C5.5876 9.45138 0 15.6188 0 23.0668C0 31.1437 6.57106 37.7149 14.6481 37.7149C15.7648 37.7149 16.8611 37.591 17.9283 37.3467C16.462 36.3771 15.1451 35.1836 14.0339 33.8075Z"
+                  fill="#C38888"
+                ></path>
+                <path
+                  d="M27.3518 8.4187C26.235 8.4187 25.1387 8.5426 24.0715 8.78678C25.5378 9.75646 26.8547 10.95 27.966 12.3261C33.6131 12.6456 38.1095 17.3406 38.1095 23.0667C38.1095 28.999 33.2837 33.8253 27.3519 33.8253C24.699 33.8253 22.1515 32.8519 20.1786 31.0843C17.9003 29.0464 16.5932 26.1238 16.5932 23.0667C16.5932 20.5029 17.513 18.0339 19.1539 16.1015C17.9901 15.3474 16.654 14.897 15.2615 14.7942C13.5856 17.2338 12.7029 20.0802 12.7029 23.0666C12.7029 26.2662 13.7157 29.3051 15.632 31.8551C17.1546 33.882 19.181 35.4866 21.4924 36.4957C23.3421 37.3047 25.3132 37.7147 27.3519 37.7147C35.4288 37.7147 41.9999 31.1436 41.9999 23.0666C41.9998 14.9898 35.4287 8.4187 27.3518 8.4187Z"
+                  fill="#C38888"
+                ></path>
+              </svg>
+              <h2 class="text-name">Our Cashless</h2>
+              <div class="couple-des">
+                Bagi keluarga atau sahabat yang ingin mengirimkan hadiah, dapat
+                dikirimkan ke rekening di bawah ini.
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <div
+                  class="card mb-5"
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
+                  style="border-radius: 15px"
+                >
+                  <img
+                    class="card-img-top"
+                    src="assets/img/templates/logo-bni.png"
+                    alt="rekening bank"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Melyasari Befyana</h5>
+                    <p class="card-text" id="text-copy-0">0584060677</p>
+                    <input
+                      type="hidden"
+                      class="form-copy copy"
+                      id="text-copy-0"
+                      value="0584060677"
+                    />
+                    <button
+                      class="btn btn-secondary btn-block"
+                      onclick="copyText('#text-copy-0')"
+                    >
+                      <i class="fa fa-copy mr-2"> Salin </i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+
+      
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="invitation"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      onclick="playAudio()"
+    >
+      <div class="modal-dialog">
+        <div class="overlay"></div>
+        <!-- <img class="modal-tema" src="https://kartunikah.com/upload/undangan/51-1.jpg" alt=""> -->
+        <div class="modal-content">
+          <div class="modal-ct">
+            <h5 class="text-center text-name" style="font-size: 30px">
+              Undangan Pernikahan
+            </h5>
+            <h5 class="text-center text-name" style="font-size: 30px">
+              Aji & Septi
+            </h5>
+          </div>
+
+          <div class="btn-modal">
+            <h6 class="text-center poppins">Kepada Yth</h6>
+            <h6 class="text-center poppins">Bapak/Ibu/Saudara/Saudari</h6>
+            <h6 class="text-center poppins">Nindya</h6>
+
+            <div class="col-md-6 mx-auto text-center">
+              <button
+                onclick="playAudio()"
+                type="button"
+                class="btn btn-primary"
+                style="background-color: white; color: #C38888"
+                data-dismiss="modal"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  style="margin-bottom: -3px; margin-right: 7px"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-mail"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                Buka Undangan
+              </button>
+            </div>
+          </div>
+          <!-- <div class="cover-modal"></div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kartunikah.com/assets/template/tema_8/color.js"></script>
+
+    <!-- modal -->
+    <!-- <script>
+      $("#invitation").modal("show");
+    </script> -->
+
+    <!-- countdown -->
+    <center>
+      <small id="demo" style="color: black" hidden> </small>
+    </center>
+    <script>
+      AOS.init();
+      // Set the date we're counting down to
+      var countdate = "2022-02-02T09:44:00";
+      var countDownDate = new Date(countdate).getTime();
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML =
+          days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        document.getElementById("hari").innerHTML = days;
+        document.getElementById("jam").innerHTML = hours;
+        document.getElementById("menit").innerHTML = minutes;
+        document.getElementById("detik").innerHTML = seconds;
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "0";
+          document.getElementById("hari").innerHTML = "0";
+          document.getElementById("jam").innerHTML = "0";
+          document.getElementById("menit").innerHTML = "0";
+          document.getElementById("detik").innerHTML = "0";
+        }
+      }, 1000);
+    </script>
+    <script>
+      document.getElementById("mute").style.display = "none";
+      var x = document.getElementById("myAudio");
+
+      function playAudio() {
+        x.play();
+        document.getElementById("un-mute").style.display = "none";
+        document.getElementById("mute").style.display = "";
+      }
+
+      function pauseAudio() {
+        x.pause();
+        document.getElementById("mute").style.display = "none";
+        document.getElementById("un-mute").style.display = "";
+      }
+
+      function copyText(text) {
+        // var idtext = text;
+        // console.log(idtext);
+        // var copyText = $(this).find("input[class='copy']").val()
+        // copyText.select();
+        // document.execCommand("copy");
+        var $temp = $("<input>");
+        console.log($temp);
+        $("body").append($temp);
+        var copytext = $temp.val($(text).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+        alert("Nomor rekening berhasil dicopy");
+      }
+    </script>
+    <script>
+      $(document).ready(() => {
+        const rgb = hexToRgb("#C38888");
+        if (rgb.length !== 3) {
+          alert("Invalid format!");
+          return;
+        }
+
+        const color = new Color(rgb[0], rgb[1], rgb[2]);
+        const solver = new Solver(color);
+        const result = solver.solve();
+
+        let lossMsg;
+        if (result.loss < 1) {
+          lossMsg = "This is a perfect result.";
+        } else if (result.loss < 5) {
+          lossMsg = "The is close enough.";
+        } else if (result.loss < 15) {
+          lossMsg = "The color is somewhat off. Consider running it again.";
+        } else {
+          lossMsg = "The color is extremely off. Run it again!";
+        }
+        console.log(result.filter);
+        // $('.realPixel').css('background-color', color.toString());
+        $(".svg").attr("style", result.filter);
+        // $('.filterDetail').text(result.filter);
+        // $('.lossDetail').html(Loss: ${result.loss.toFixed(1)}. <b>${lossMsg}</b>);
+      });
+    </script>
+  </body>
+</html>
